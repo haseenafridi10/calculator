@@ -1,0 +1,23 @@
+{
+  "name": "m2-calculator-1",
+  "version": "2.0.1",
+  "type": "module",
+  "description": "A simple Calculator using Typescript",
+  "main": "index.js",
+  "types": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haseen Afridi",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
